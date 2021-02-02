@@ -23,17 +23,19 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/press_the_button_to_get_help"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/getHelpButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClickGetHelpButton"
             android:text="@string/get_help" />
 
         <TextView
             android:id="@+id/resultText"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
